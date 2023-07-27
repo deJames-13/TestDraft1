@@ -9,17 +9,20 @@ Public Class MainApplication
 
     End Sub
 
-
-    Private Sub btnCustomer_Click(sender As Object, e As EventArgs) Handles btnCustomer.Click
+    Private Sub OnRoleSelection(sender As Object, e As EventArgs) Handles btnAdmin.Click, btnCustomer.Click
         Me.Hide()
-        _login.role = "customer"
-        _login.ShowDialog()
-    End Sub
 
-    Private Sub btnAdmin_Click(sender As Object, e As EventArgs) Handles btnAdmin.Click
-        Me.Hide()
-        _login.role = "user"
-        _login.btnSignUp.Visible = False
-        _login.ShowDialog()
+        Select Case sender.name
+            Case "btnCustomer"
+
+                role = "viewer"
+                _home.ShowDialog()
+
+            Case "btnAdmin"
+
+                role = "user"
+                _login.btnSignUp.Visible = False
+                _login.ShowDialog()
+        End Select
     End Sub
 End Class

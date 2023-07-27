@@ -1,4 +1,6 @@
-﻿Public Class _filterbar
+﻿Imports System.Web
+
+Public Class _filterbar
 
     Private category = ""
     Private brand = ""
@@ -47,7 +49,7 @@
     End Sub
 
     Private Sub SetCondition()
-        condition = $"WHERE category LIKE '%{category}%' AND brand LIKE '%{brand}%' {filters} {order}"
+        condition = $"WHERE category LIKE '%{category}%' AND brand LIKE '%{brand}%' {filters} {IIf(Not filters = "", order, "")}"
     End Sub
 
     Private Sub Reload()

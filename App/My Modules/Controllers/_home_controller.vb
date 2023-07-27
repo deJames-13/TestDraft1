@@ -2,6 +2,10 @@
 
 Module _home_controller
     '
+    ' USER ROLE
+    '
+    Public role = "viewer"
+    '
     ' BUTTONS and SUMMARIES caches
     '
     Public cartButtons As New Dictionary(Of String, Button())

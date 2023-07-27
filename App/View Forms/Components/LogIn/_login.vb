@@ -2,7 +2,6 @@
 
 Public Class _login
 
-    Public role As String = "customer"
     Private Sub _login_Closed(sender As Object, e As EventArgs) Handles MyBase.FormClosed
         Application.Exit()
     End Sub

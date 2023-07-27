@@ -6,22 +6,17 @@ Public Class _viewitemdialog
     Dim quant As Integer = 1
     ' my base load
     Private Sub _viewitemdialog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        windowTitle.Text = "View Item ID: " & item("id")
-        item_name.Text = item("item_name")
-        price.Text = "₱" & item("price")
-        stock_quantity.Text = item("stock_quantity")
-        tags_specification.Text = item("description")
-        quantity.Text = quant
 
 
-        If item("image_dir") IsNot DBNull.Value Then
-            itemImage.Image = Image.FromFile(item("image_dir"))
-            itemImage.SizeMode = ImageLayout.Zoom
+        If role Is "viewer" Then
+            ToggleControls({btnAddToCart, btnOrderNow, quantWrapper}, False)
         Else
-            itemImage.Image = My.Resources.icons8_no_image_30
-            itemImage.SizeMode = ImageLayout.Center
-
+            ToggleControls({btnAddToCart, btnOrderNow, quantWrapper}, True)
         End If
+
+        Reload()
+
+
 
     End Sub
 
@@ -58,5 +53,23 @@ Public Class _viewitemdialog
         switchPanel(_ordering_dialog.windowWrapper, currentPage)
 
 
+    End Sub
+    Private Sub Reload()
+        windowTitle.Text = "View Item ID: " & item("id")
+        item_name.Text = item("item_name")
+        price.Text = "₱" & item("price")
+        stock_quantity.Text = item("stock_quantity")
+        tags_specification.Text = item("description")
+        quantity.Text = quant
+
+
+        If item("image_dir") IsNot DBNull.Value Then
+            itemImage.Image = Image.FromFile(item("image_dir"))
+            itemImage.SizeMode = ImageLayout.Zoom
+        Else
+            itemImage.Image = My.Resources.icons8_no_image_30
+            itemImage.SizeMode = ImageLayout.Center
+
+        End If
     End Sub
 End Class

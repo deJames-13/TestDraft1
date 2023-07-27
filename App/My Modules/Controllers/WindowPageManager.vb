@@ -38,6 +38,15 @@
             t.Clear()
         Next
     End Sub
+
+    Public Sub ToggleControls(ByRef controls As Control(), state As Boolean)
+        For Each control In controls
+            control.Enabled = state
+            control.Visible = state
+        Next
+    End Sub
+
+
     '######################################################################
 
     '######################################################################

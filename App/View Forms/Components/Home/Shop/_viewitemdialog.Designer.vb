@@ -42,7 +42,7 @@ Partial Class _viewitemdialog
         Me.item_name = New System.Windows.Forms.Label()
         Me.lineVertical1 = New System.Windows.Forms.Panel()
         Me.rightSection = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.quantWrapper = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.quantity = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -66,7 +66,7 @@ Partial Class _viewitemdialog
         Me.labelPrice_wrapper.SuspendLayout()
         Me.labelName_wrapper.SuspendLayout()
         Me.rightSection.SuspendLayout()
-        Me.Panel3.SuspendLayout()
+        Me.quantWrapper.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
@@ -314,7 +314,7 @@ Partial Class _viewitemdialog
         '
         'rightSection
         '
-        Me.rightSection.Controls.Add(Me.Panel3)
+        Me.rightSection.Controls.Add(Me.quantWrapper)
         Me.rightSection.Controls.Add(Me.Panel1)
         Me.rightSection.Controls.Add(Me.Panel25)
         Me.rightSection.Controls.Add(Me.imageBox)
@@ -326,19 +326,19 @@ Partial Class _viewitemdialog
         Me.rightSection.Size = New System.Drawing.Size(210, 346)
         Me.rightSection.TabIndex = 8
         '
-        'Panel3
+        'quantWrapper
         '
-        Me.Panel3.BackColor = System.Drawing.Color.Transparent
-        Me.Panel3.Controls.Add(Me.Panel6)
-        Me.Panel3.Controls.Add(Me.Panel5)
-        Me.Panel3.Controls.Add(Me.Panel4)
-        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel3.Location = New System.Drawing.Point(5, 207)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(5, 20, 5, 20)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Padding = New System.Windows.Forms.Padding(5, 10, 5, 10)
-        Me.Panel3.Size = New System.Drawing.Size(190, 60)
-        Me.Panel3.TabIndex = 53
+        Me.quantWrapper.BackColor = System.Drawing.Color.Transparent
+        Me.quantWrapper.Controls.Add(Me.Panel6)
+        Me.quantWrapper.Controls.Add(Me.Panel5)
+        Me.quantWrapper.Controls.Add(Me.Panel4)
+        Me.quantWrapper.Dock = System.Windows.Forms.DockStyle.Top
+        Me.quantWrapper.Location = New System.Drawing.Point(5, 207)
+        Me.quantWrapper.Margin = New System.Windows.Forms.Padding(5, 20, 5, 20)
+        Me.quantWrapper.Name = "quantWrapper"
+        Me.quantWrapper.Padding = New System.Windows.Forms.Padding(5, 10, 5, 10)
+        Me.quantWrapper.Size = New System.Drawing.Size(190, 60)
+        Me.quantWrapper.TabIndex = 53
         '
         'Panel6
         '
@@ -522,7 +522,7 @@ Partial Class _viewitemdialog
         Me.labelName_wrapper.PerformLayout()
         Me.rightSection.ResumeLayout(False)
         Me.rightSection.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
+        Me.quantWrapper.ResumeLayout(False)
         Me.Panel6.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
@@ -559,7 +559,7 @@ Partial Class _viewitemdialog
     Friend WithEvents btnClose As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnOrderNow As Button
-    Friend WithEvents Panel3 As Panel
+    Friend WithEvents quantWrapper As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel6 As Panel

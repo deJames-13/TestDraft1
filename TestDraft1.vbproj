@@ -382,6 +382,10 @@
     <None Include="Resources\welcomeBannerTitle2.png" />
     <None Include="Resources\welcomeBannerTitle3.png" />
     <None Include="Resources\icons8-edit-20.png" />
+    <None Include="Resources\settingsBtn.png" />
+    <None Include="Resources\signinBtn.png" />
+    <None Include="Resources\simpleLogo.png" />
+    <None Include="Resources\logo198x100.png" />
     <Content Include="storeIcon.ico" />
     <Content Include="window_forms.ico" />
   </ItemGroup>

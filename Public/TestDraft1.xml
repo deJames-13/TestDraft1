@@ -132,7 +132,27 @@ TestDraft1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TestDraft1.My.Resources.Resources.logo198x100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:TestDraft1.My.Resources.Resources.ordersBtn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDraft1.My.Resources.Resources.settingsBtn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDraft1.My.Resources.Resources.signinBtn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestDraft1.My.Resources.Resources.simpleLogo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

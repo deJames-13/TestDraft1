@@ -386,6 +386,10 @@ Public Class AdminMain
         End Try
     End Sub
 
+    Private Sub AdminMain_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
+        Application.Exit()
+    End Sub
+
     '====================== OTHERS =======================
 
 

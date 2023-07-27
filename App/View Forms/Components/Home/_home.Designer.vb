@@ -30,20 +30,20 @@ Partial Class _home
         Me.sidePanel = New System.Windows.Forms.Panel()
         Me.navPanel = New System.Windows.Forms.Panel()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.btnSettings = New System.Windows.Forms.Button()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.btnProfile = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnOrders = New System.Windows.Forms.Button()
         Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.btnCart = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.btnShop = New System.Windows.Forms.Button()
         Me.bottomPanel = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.logoPanel = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.btnSettings = New System.Windows.Forms.Button()
+        Me.btnProfile = New System.Windows.Forms.Button()
+        Me.btnOrders = New System.Windows.Forms.Button()
+        Me.btnCart = New System.Windows.Forms.Button()
+        Me.btnShop = New System.Windows.Forms.Button()
+        Me.logoPanel = New System.Windows.Forms.Panel()
         Me.mainWindowPanel.SuspendLayout()
         Me.leftSection.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -136,20 +136,6 @@ Partial Class _home
         Me.Panel12.Size = New System.Drawing.Size(198, 95)
         Me.Panel12.TabIndex = 17
         '
-        'btnSettings
-        '
-        Me.btnSettings.AutoSize = True
-        Me.btnSettings.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnSettings.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
-        Me.btnSettings.FlatAppearance.BorderSize = 0
-        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSettings.Image = CType(resources.GetObject("btnSettings.Image"), System.Drawing.Image)
-        Me.btnSettings.Location = New System.Drawing.Point(5, 35)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(188, 55)
-        Me.btnSettings.TabIndex = 2
-        Me.btnSettings.UseVisualStyleBackColor = True
-        '
         'Panel10
         '
         Me.Panel10.Controls.Add(Me.btnProfile)
@@ -160,20 +146,6 @@ Partial Class _home
         Me.Panel10.Padding = New System.Windows.Forms.Padding(5, 20, 5, 5)
         Me.Panel10.Size = New System.Drawing.Size(198, 80)
         Me.Panel10.TabIndex = 16
-        '
-        'btnProfile
-        '
-        Me.btnProfile.AutoSize = True
-        Me.btnProfile.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnProfile.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
-        Me.btnProfile.FlatAppearance.BorderSize = 0
-        Me.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProfile.Image = CType(resources.GetObject("btnProfile.Image"), System.Drawing.Image)
-        Me.btnProfile.Location = New System.Drawing.Point(5, 20)
-        Me.btnProfile.Name = "btnProfile"
-        Me.btnProfile.Size = New System.Drawing.Size(188, 55)
-        Me.btnProfile.TabIndex = 2
-        Me.btnProfile.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -186,21 +158,6 @@ Partial Class _home
         Me.Panel2.Size = New System.Drawing.Size(198, 80)
         Me.Panel2.TabIndex = 18
         '
-        'btnOrders
-        '
-        Me.btnOrders.AutoSize = True
-        Me.btnOrders.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnOrders.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnOrders.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
-        Me.btnOrders.FlatAppearance.BorderSize = 0
-        Me.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnOrders.Image = Global.TestDraft1.My.Resources.Resources.ordersBtn
-        Me.btnOrders.Location = New System.Drawing.Point(5, 20)
-        Me.btnOrders.Name = "btnOrders"
-        Me.btnOrders.Size = New System.Drawing.Size(188, 55)
-        Me.btnOrders.TabIndex = 2
-        Me.btnOrders.UseVisualStyleBackColor = True
-        '
         'Panel8
         '
         Me.Panel8.Controls.Add(Me.btnCart)
@@ -211,20 +168,6 @@ Partial Class _home
         Me.Panel8.Padding = New System.Windows.Forms.Padding(5, 20, 5, 5)
         Me.Panel8.Size = New System.Drawing.Size(198, 80)
         Me.Panel8.TabIndex = 15
-        '
-        'btnCart
-        '
-        Me.btnCart.AutoSize = True
-        Me.btnCart.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnCart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
-        Me.btnCart.FlatAppearance.BorderSize = 0
-        Me.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCart.Image = CType(resources.GetObject("btnCart.Image"), System.Drawing.Image)
-        Me.btnCart.Location = New System.Drawing.Point(5, 20)
-        Me.btnCart.Name = "btnCart"
-        Me.btnCart.Size = New System.Drawing.Size(188, 55)
-        Me.btnCart.TabIndex = 2
-        Me.btnCart.UseVisualStyleBackColor = True
         '
         'Panel6
         '
@@ -237,20 +180,6 @@ Partial Class _home
         Me.Panel6.Padding = New System.Windows.Forms.Padding(5, 20, 5, 5)
         Me.Panel6.Size = New System.Drawing.Size(198, 80)
         Me.Panel6.TabIndex = 14
-        '
-        'btnShop
-        '
-        Me.btnShop.AutoSize = True
-        Me.btnShop.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnShop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
-        Me.btnShop.FlatAppearance.BorderSize = 0
-        Me.btnShop.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnShop.Image = CType(resources.GetObject("btnShop.Image"), System.Drawing.Image)
-        Me.btnShop.Location = New System.Drawing.Point(5, 20)
-        Me.btnShop.Name = "btnShop"
-        Me.btnShop.Size = New System.Drawing.Size(188, 55)
-        Me.btnShop.TabIndex = 2
-        Me.btnShop.UseVisualStyleBackColor = True
         '
         'bottomPanel
         '
@@ -290,17 +219,6 @@ Partial Class _home
         Me.Label8.Text = "about us." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'logoPanel
-        '
-        Me.logoPanel.BackColor = System.Drawing.Color.White
-        Me.logoPanel.Dock = System.Windows.Forms.DockStyle.Top
-        Me.logoPanel.Location = New System.Drawing.Point(0, 50)
-        Me.logoPanel.Margin = New System.Windows.Forms.Padding(5)
-        Me.logoPanel.Name = "logoPanel"
-        Me.logoPanel.Padding = New System.Windows.Forms.Padding(5)
-        Me.logoPanel.Size = New System.Drawing.Size(198, 100)
-        Me.logoPanel.TabIndex = 2
-        '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.DimGray
@@ -310,6 +228,91 @@ Partial Class _home
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(2, 661)
         Me.Panel3.TabIndex = 31
+        '
+        'btnSettings
+        '
+        Me.btnSettings.AutoSize = True
+        Me.btnSettings.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnSettings.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.btnSettings.FlatAppearance.BorderSize = 0
+        Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSettings.Image = Global.TestDraft1.My.Resources.Resources.settingsBtn
+        Me.btnSettings.Location = New System.Drawing.Point(5, 35)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.Size = New System.Drawing.Size(188, 55)
+        Me.btnSettings.TabIndex = 2
+        Me.btnSettings.Text = "`"
+        Me.btnSettings.UseVisualStyleBackColor = True
+        '
+        'btnProfile
+        '
+        Me.btnProfile.AutoSize = True
+        Me.btnProfile.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnProfile.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.btnProfile.FlatAppearance.BorderSize = 0
+        Me.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnProfile.Image = CType(resources.GetObject("btnProfile.Image"), System.Drawing.Image)
+        Me.btnProfile.Location = New System.Drawing.Point(5, 20)
+        Me.btnProfile.Name = "btnProfile"
+        Me.btnProfile.Size = New System.Drawing.Size(188, 55)
+        Me.btnProfile.TabIndex = 2
+        Me.btnProfile.UseVisualStyleBackColor = True
+        '
+        'btnOrders
+        '
+        Me.btnOrders.AutoSize = True
+        Me.btnOrders.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnOrders.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnOrders.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.btnOrders.FlatAppearance.BorderSize = 0
+        Me.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnOrders.Image = Global.TestDraft1.My.Resources.Resources.ordersBtn
+        Me.btnOrders.Location = New System.Drawing.Point(5, 20)
+        Me.btnOrders.Name = "btnOrders"
+        Me.btnOrders.Size = New System.Drawing.Size(188, 55)
+        Me.btnOrders.TabIndex = 2
+        Me.btnOrders.UseVisualStyleBackColor = True
+        '
+        'btnCart
+        '
+        Me.btnCart.AutoSize = True
+        Me.btnCart.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnCart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.btnCart.FlatAppearance.BorderSize = 0
+        Me.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCart.Image = CType(resources.GetObject("btnCart.Image"), System.Drawing.Image)
+        Me.btnCart.Location = New System.Drawing.Point(5, 20)
+        Me.btnCart.Name = "btnCart"
+        Me.btnCart.Size = New System.Drawing.Size(188, 55)
+        Me.btnCart.TabIndex = 2
+        Me.btnCart.UseVisualStyleBackColor = True
+        '
+        'btnShop
+        '
+        Me.btnShop.AutoSize = True
+        Me.btnShop.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.btnShop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
+        Me.btnShop.FlatAppearance.BorderSize = 0
+        Me.btnShop.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnShop.Image = CType(resources.GetObject("btnShop.Image"), System.Drawing.Image)
+        Me.btnShop.Location = New System.Drawing.Point(5, 20)
+        Me.btnShop.Name = "btnShop"
+        Me.btnShop.Size = New System.Drawing.Size(188, 55)
+        Me.btnShop.TabIndex = 2
+        Me.btnShop.UseVisualStyleBackColor = True
+        '
+        'logoPanel
+        '
+        Me.logoPanel.BackColor = System.Drawing.Color.White
+        Me.logoPanel.BackgroundImage = Global.TestDraft1.My.Resources.Resources.logo198x100
+        Me.logoPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.logoPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.logoPanel.Location = New System.Drawing.Point(0, 50)
+        Me.logoPanel.Margin = New System.Windows.Forms.Padding(5)
+        Me.logoPanel.Name = "logoPanel"
+        Me.logoPanel.Padding = New System.Windows.Forms.Padding(5)
+        Me.logoPanel.Size = New System.Drawing.Size(198, 100)
+        Me.logoPanel.TabIndex = 2
         '
         '_home
         '

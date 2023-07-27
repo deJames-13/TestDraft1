@@ -117,61 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAMwAAABECAYAAADNwdpHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAACy1JREFUeF7tnUuoXUkVhm/aTrfp20k6MTEEogYJ2OhEiRMfSFQUdOTAjHWYmYoT
-        HwPbkeJEZ6ITdeZAUMS5KAg+EBGcqKDgWHDkY6DG9e1bf/V/1q29z7nJ9eac0+uHn6q9Vj33rn9X7dr7
-        nnvw4MGDl4rF4pgPHz48WAHGFi0UCga0EXgqoueOLIESTKEwRtPG+eAkmphtzpVgCoUZoI07d+48G9Gn
-        g4imZphCYQ5NG88Fnwm+ClsJplCYQdPG88FXB5llaklWKMwBbVy7du1iREswhcI6oI3r168/f/v27RJM
-        obAOEkxESzCFwjo0bXTB1LZyobCApo1DlmT37t1jhunGQqGQoBnm1q1bFyKsGaZQWALa0EN/m2FKMIXC
-        HDTDtF0yPpEpwRQKc5BggrVLViisA9qo9zCFwoZAGzdu3DjUB5j10F8oLKBp42LNMIXCBkAb9aa/UNgQ
-        aKM+viwUNkTTxt7MMEd/AXdw8Jbgm4+i3bYvuBf8fvCr01HhTDEQTDfuGl4T/FTwXcHvBL/d4tjw7Qt+
-        E+RnSyDiKZwhXDB3797d2ReXCOLtwZ8FNZhEbPi2RTRfC/658a0YEhCB/J/EkPDjIP36W/A2hsLZwQWz
-        q5/GsORiFkEY/wj+PPjZ4Gea7e8tJM3LP43z5MDMJzGPZghs8s9dB9K8cBQtnCVMMHx8uZUzDD808Log
-        zyXfbCSO7ehHCA4O3hlkgP0iyEB6f/C9wcvNhu8dwZOAuzfcdGCSbpP0pyGYTbFpmwT1+SRQHSfNt5NA
-        G2wrtxeXWymY1we/Hvxl8J9BZhHi2PAhnm8FGWCfC74v+MfgH1ocGz4GKmmXwEVnycNyR4MWYpsbEAxw
-        LZNEllNfCDo+HvQ0Tp3vkQ9SnuB1vQFDg2xqa24T52iuD7TV+6zlIu2SLYt71G+4VM/OQ4KJ6NYuyRjk
-        vwp+I/imRuKIBp8LhmWYBPP7ILPM54O6kNo5G4GLzEDxi5+Znzk+FhylE6lTOEvBzPUDXwa7baO0CIjn
-        LR27YJb6Aql/01ltp9C00b9W3sZPY1iCMau8GPxw8EMtjg0f0JKMZxWWYYgGsXDREBa+dUsyiQ4yUHTB
-        fXD4gENgsjNAGFDkQVRs+8qnB3ctXdz3kWZTXcS9PtqBDQrrBANpD/XSJq6l++YGPgIhLXWRJovO87nP
-        7V7XNo2hU4MEE5y2lbdVMCzFEAliccEw0+SHfp5ZWIZBxIJND/1L72TmBiJgUDC4fIZxgY12uzSoCB2P
-        +wyziWBcYGBuIHtZ9M9BGb5M87bKxhZ3BuXoRrB38BlmV5dk4DS2lX35wSDnwi9ddL0PIS3pMl1QmkHA
-        /1swWaCAASy/l+mCGMFnQ2+rbgaQfuLzPu4tmjYOg5NgtnGGYTds7qEfn3AtyCzyqC8uGeQ+EEQGFQMn
-        D+6cbok+sJ+EYEZlMsCX8gDSKo231ZdyTm4iCIhzuZdAG/4t2TYKhmnPt5WZXYizQ3b0acLLeNxPY7jQ
-        DGh/m+70nS+3M4iX+KRnmNMWDNC5mrvJjPq282ja0DPMTr7pvx/8dfCLwe8Gvxw8iUjmwIDiovsAhxr8
-        Gihzg20O2yIYoCUZoYtamFuSZSAeln2ennbuHVwwu/imn5dHPwz+N6gL9dvge4InBcsMdpZGn6P4jKMH
-        /HUDn/Jg9p1EMDxXZZymYLys/DEnIpAPqq0IS+cqt3+TWWungTZ29VdjPhD8U/CvQT6F4WLdDfLC8t/B
-        TwdPAn8AdtEwKDSbQN2JfRDi9wH1iaD7HC4YBin5fM2PID0vft+FO03BuB3y/IEY9CLTz4n650KiLm87
-        +eTb6xkGwezax5dvDP4k+KPga4O8oHxb8EtBv8CbwneSYB4wMJ8Xjt2fSf685ZwHKXSBIjgGovtdBKcp
-        GDDXB8qZe3HpdpjPFXEX0t5gMMN0FW077gR/GpRgeO/ignl38KRANKMHfmz4RuCOnAc4ZGCP3s8Azq/n
-        +UHQwWDLZWpmO23BAPzMfPQTkob6XEwuGJD7IC71e+ehGSaov4fZmRnmg8G/BFmSIRYuMEsyPov5V5Dt
-        5EcFZTFA4KZ3SuVhsGhwrwNlL5VPOfg3Le+0MTfDOOjvSfu9s9hlwQAazc7Mf4K6sL8LPspD/ysRDHKe
-        o5hV8qzA4PcZZNMbx15DguG3lXdxlwx8NMiXAGwrfy/4laA++y8sg5lBguC5Qw/9PFO5WLAXAmhDn/fv
-        qmAKjweutYQxIs8ke7/U2hSaYYI7+R6mcDpgucWswvIWgRDy/DL33PKKhQSzi9vKhcKZwwUTYc0whcIS
-        JJjgJJj6beVCYQFogx8jjyiCqSVZobAEzTC7+C1ZoXDmkGCC9QxTKKxDCaZQOAGaNqZ/Ox5hCaZQWELN
-        MIXCCZAFU9vKhcICBoLpxkKhkIA2eA9TzzCFwgZAG/qLyzisJVmhsISmjenvYSIswRQKS5BggvWmv1BY
-        BxdMsGaYQmEJaMP/P0wXTLFYHDPEsiqYAH+SekmO9pdlrNeeVryt37pdbP4Vu+dv+VbsVtZ5S7tShqjy
-        CRXH7uVmzviG5a9Jex4/9LYTT/m8H52WZvJbOVPalEdx92V/rte54if0tIPyxG5XG+Wz+DCf2m919eNR
-        6LS65vrU6/S02Zc4pYNqm/vkT/2c7MStDpZfh1evXr105cqVy8d2yQJXghKN9pw783GyX5B/KR27DCnd
-        hbbzAHteLyPHR+nbscrq6Qfs9Xm5zkEZUx7S57YsHKuMXha+UftyGe5zW06X03o6r2cUN9ux89D+j2Pv
-        L2kVd5I2h42U3evMVHkjn+xqX2tLTtfzD8rpY4BQlJ94y9NtHA/Kw8/fv1x6oYFf78ffBNUFcwVnhJOi
-        2rqth+0n/6dj2UQ/9nw57lT6GdLgfqz0LVzxZXrZxGl3rk/H7Q+DennYYbN3m/ou+rGVjW3Kp3KafVSG
-        13txUN6hyvByGnt/lNbix8JRvB1Pdcg+R0uzcg7gJvmX6PmJj8rLNjs+tPM2nftRfuj2QZqV8dHK5L/a
-        oQVNJPimX42JGSaikSAwiaZxEg5kSlJcxxJWJj7RbUxtI7+ny1QeqPo8b07jHJW7VNeISq86Rfep/hZO
-        0zfH686P21IfejylG/VzZJvKUz0qW2UpzO1dx5x/5EvxYdsgaRbK6W1SG+X3vqT8QzvXIKVby5aeaycN
-        EF6+efPmcxE+E+TnvM4dNMOkPhSWVDh3h853nJW7sihbusPC4R3B8+Uy5uJO1TPKO8rvNh27z9stn/yN
-        K3d4MR875bM0K+dO8XzOBn3L53QiPtJ6WYq7bYmka2lz2/oxpB5mZCi/1232nr7Fp3zE8VuayeZleH7o
-        K4DM7PM6PFTc7S1O+/p5RRv6l+M8v2iGQT3H1oy+rrN4Z7ZxbLZnibd1pNaNvY5ReYk9n5U7HdMB5dda
-        d6E875faMdHXuNludXr9w+MBe7kp3WT3epfKkS+30/Monm1+7Gz2C34OW+jncXhexFHZZpvK9TSj9MZj
-        487Z8q6UqfOxUO7Uv7nrm+llD4g2eHZ5Sg/8B/fv32eqgdNOge0gTDsK+N2W2Xx954FwsEsxMe1QwL5L
-        sQnn2jFnn+FKfS3vZPNyFPewnSulWdtHQsV1HOGxXTVPE+xtSfn7Lo/yz6UhtDqW6oL5mmSu5Heb103o
-        52eufjH3odlXbLJ7nHx+7Hmszp5vZLO8x/xG+jIJpYtlBjhFkOMeCkojAk8zssvmFEa+dQQeztl0DJbS
-        iGDdMXCb7B7O2dwHsm0uBEo3R2Fk9zDH/Vjhkk/wNO73uDBnGxHkuMJMoBBkvxPkY0eyHRz8D+tgbVCz
-        aRsOAAAAAElFTkSuQmCC
+  <data name="Label2.Text" xml:space="preserve">
+    <value>DEH Electronics is your one-stop-shop for all your electronic and gadget needs. We offer a carefully curated selection of the latest and most innovative technology, ensuring that our customers always have access to top-quality products. 
 </value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnProfile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMwAAABECAYAAADNwdpHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -309,10 +259,6 @@
         Uv1xysP6sxik0sdSX2D+m2Tu1Feb9o1U78+sfzJfQ7fv2GjXPOppWetIn6NeZZO6J/xCXEsTyhDLBHCS
         QM5rSjCGBDSmstOmJCrfGgFNZzaWgaUYElgrA2qjXdOZTX1Ats1SgHEzEpVd05zXMtMlH6Ex6tc8MbNV
         BHKeaSbAFMh+JZDLimQ7OPgSsqK5NtZGZLYAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>DEH Electronics is your one-stop-shop for all your electronic and gadget needs. We offer a carefully curated selection of the latest and most innovative technology, ensuring that our customers always have access to top-quality products. 
 </value>
   </data>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
